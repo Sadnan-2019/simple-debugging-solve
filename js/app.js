@@ -19,6 +19,14 @@ const addToLiked = (id) => {
     likedPostsId.push(id); 
     showPosts(posts);
 };
+// const addToLiked = (id) => {
+//     likedPostsId.includes(id); 
+//     showPosts(posts);
+// };
+// const addToLiked = (id) => {
+//     likedPostsId.plus(id); 
+//     showPosts(posts);
+// };
 
 const reportPost = (id) => {
     reportedPostsId.push(id);
